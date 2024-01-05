@@ -4,7 +4,9 @@ RemoteMultiMon
 This application enables multiple monitors in Remote Desktop (Windows).
 This could be useful for scenarios where you don't have access to the Remote Desktop UI dialog, for example in certain VPN solutions.
 
-For a better experience, the application should be set as the default application for .rdp files.
+Run this application instead of Remote Desktop (mstsc.exe) and it will in turn call Remote Desktop with multiple monitors enabled.
+
+For a better experience, set the application as the default application for .rdp files.
 
 Usage
 =====
