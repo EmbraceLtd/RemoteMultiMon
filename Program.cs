@@ -8,14 +8,7 @@ namespace RemoteMultiMon
         {
             try
             {
-                if (args.Count() > 0)
-                {
-                    var rdpFile = args[0];
-                    Process.Start(@"C:\Windows\system32\mstsc.exe", $"/multimon {rdpFile}");
-                }
-                else
-                    Process.Start(@"C:\Windows\system32\mstsc.exe", "/multimon");
-
+                Process.Start(@"C:\Windows\system32\mstsc.exe", $"/multimon {string.Join(' ', args)}");
             }
             catch (Exception ex)
             {
