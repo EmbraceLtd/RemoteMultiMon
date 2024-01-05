@@ -1,8 +1,7 @@
 {
   "profiles": {
     "RemoteMultiMon": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\ltomm\\Downloads\\launch654fb5b3.rdp"
+      "commandName": "Project"
     }
   }
 }
