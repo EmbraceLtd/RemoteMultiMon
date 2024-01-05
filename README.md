@@ -1,10 +1,10 @@
 RemoteMultiMon
 ==============
 
-This application enables multiple monitors in Remote Desktop (Windows) by adding the appropriate settings in the .rdp file.
+This application enables multiple monitors in Remote Desktop (Windows).
 This could be useful for scenarios where you don't have access to the Remote Desktop UI dialog, for example in certain VPN solutions.
 
-Note! For a better experience, the application should be set as the default application for .rdp files.
+For a better experience, the application should be set as the default application for .rdp files.
 
 Usage
 =====
